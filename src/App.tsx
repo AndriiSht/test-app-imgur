@@ -1,25 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { QueryClientProvider, QueryClient } from "react-query";
+import { ReactQueryDevtools } from "react-query/devtools";
+import { MemeList } from "pages";
+import CssBaseline from "@mui/material/CssBaseline";
+import { ThemeContextProvider } from "context";
+import { GlobalStyles } from "@mui/material";
+
+const queryClient = new QueryClient();
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeContextProvider>
+      <CssBaseline />
+      <GlobalStyles styles={{ "*": { boxSizing: "border-box" } }} />
+      <QueryClientProvider client={queryClient}>
+        <MemeList />
+        <ReactQueryDevtools initialIsOpen={false} position="bottom-right" />
+      </QueryClientProvider>
+    </ThemeContextProvider>
   );
 }
 
