@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/test-app-imgur/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/test-app-imgur/static/js/main.118c7e00.chunk.js",
+    "main.js.map": "/test-app-imgur/static/js/main.118c7e00.chunk.js.map",
+    "runtime-main.js": "/test-app-imgur/static/js/runtime-main.b8dbcea4.js",
+    "runtime-main.js.map": "/test-app-imgur/static/js/runtime-main.b8dbcea4.js.map",
+    "static/js/2.f2c2698f.chunk.js": "/test-app-imgur/static/js/2.f2c2698f.chunk.js",
+    "static/js/2.f2c2698f.chunk.js.map": "/test-app-imgur/static/js/2.f2c2698f.chunk.js.map",
+    "static/js/3.08dbf6e5.chunk.js": "/test-app-imgur/static/js/3.08dbf6e5.chunk.js",
+    "static/js/3.08dbf6e5.chunk.js.map": "/test-app-imgur/static/js/3.08dbf6e5.chunk.js.map",
+    "index.html": "/test-app-imgur/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/test-app-imgur/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.f2c2698f.chunk.js.LICENSE.txt": "/test-app-imgur/static/js/2.f2c2698f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8dbcea4.js",
+    "static/js/2.f2c2698f.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.118c7e00.chunk.js"
+  ]
+}
